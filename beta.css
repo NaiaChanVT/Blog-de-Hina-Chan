@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e3e3;
+    color: #484848;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffacac;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.post-section {
+    padding: 20px;
+}
+
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.post-info p {
+    font-size: 14px;
+    margin: 0;
+    color: #9a9a9a;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-content p {
+    margin-bottom: 10px;
+}
+
+.post-content img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.post-content video,
+.post-content audio {
+    max-width: 100%;
+}
+
+
+/* El código CSS anterior se mantiene igual */
+
+/* Estilos para el footer */
+footer {
+    background-color: #ffacac;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}

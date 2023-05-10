@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* Estilos para el pop-up */
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup-content {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.popup-buttons {
+  margin-top: 20px;
+}
+
+/* Estilos para los botones del pop-up */
+.popup-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para el desenfoque del fondo */
+body::after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  backdrop-filter: blur(10px);
+}
